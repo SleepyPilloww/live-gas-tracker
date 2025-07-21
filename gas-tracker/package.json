@@ -9,6 +9,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "react-scripts start"
+    "lint": "next lint"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -20,6 +21,10 @@
   "devDependencies": {
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0"
+    "@types/node": "20.8.0"
+    "eslint": "8.51.0",
+    "eslint-config-next": "14.0.0",
+    "typescript": "5.2.0"
   },
   "browserslist": {
     "production": [
@@ -32,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  }
+   "engines": {
+    "node": ">=18.0.0"
   }
 }
